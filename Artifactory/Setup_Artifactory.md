@@ -11,7 +11,15 @@ JFrog Artifactory is a universal DevOps solution providing end-to-end automation
 
 1. Login to instance as a `root` user and install Java
    ```sh 
+   Centos Servers:
+   ---------------
     yum install java-1.8* -y 
+    
+    Ubuntu Servers:
+    --------------
+    apt-get update
+    apt-get install default-jre -y
+    apt-get install default-jdk -y
    ```
 1. Download Artifactory packages onto /opt/   
    For Latest version of Artifactory OSS [download it from here](https://jfrog.com/open-source/)   
