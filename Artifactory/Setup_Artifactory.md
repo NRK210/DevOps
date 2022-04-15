@@ -15,8 +15,8 @@ JFrog Artifactory is a universal DevOps solution providing end-to-end automation
    ---------------
     yum install java-1.8* -y 
     
-    Ubuntu Servers:
-    --------------
+   Ubuntu Servers:
+   ---------------
     apt-get update
     apt-get install default-jre -y
     apt-get install default-jdk -y
